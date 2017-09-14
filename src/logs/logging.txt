@@ -1,0 +1,224 @@
+Verifying structure
+dir config, doesn't exist, creating.
+Music players config doesn't exist, creating C:\Users\az\Documents\SMG_Development\SMG\src\config\music_players.json
+configuration file doesn't exist, creating config file
+creating default config file
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+dir config, doesn't exist, creating.
+Music players config doesn't exist, creating C:\Users\az\Documents\SMG_Development\SMG\src\config\music_players.json
+configuration file doesn't exist, creating config file
+creating default config file
+Verifying structure
+dir config, doesn't exist, creating.
+Music players config doesn't exist, creating C:\Users\az\Documents\SMG_Development\SMG\src\config\music_players.json
+configuration file doesn't exist, creating config file
+creating default config file
+creating default config file
+--------------------
+Starting up program!
+--------------------
+last active player was None
+writing No song is currently playing
+Worker finished
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was Media monkey
+---------------
+Exiting program
+---------------
+creating default config file
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+creating default config file
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+creating default config file
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+dir config, doesn't exist, creating.
+Music players config doesn't exist, creating C:\Users\az\Documents\SMG_Development\SMG\src\config\music_players.json
+configuration file doesn't exist, creating config file
+creating default config file
+creating default config file
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+False
+this shouldn't happen, server returned an invalid answer, in benefit of the doubt for the user, we'll validate this request
+Verifying structure
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+False
+this shouldn't happen, server returned an invalid answer, in benefit of the doubt for the user, we'll validate this request
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+False
+this shouldn't happen, server returned an invalid answer, in benefit of the doubt for the user, we'll validate this request
+---------------
+Exiting program
+---------------
+Verifying structure
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+False
+this shouldn't happen, server returned an invalid answer, in benefit of the doubt for the user, we'll validate this request
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+False
+this shouldn't happen, server returned an invalid answer, in benefit of the doubt for the user, we'll validate this request
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+False
+this shouldn't happen, server returned an invalid answer, in benefit of the doubt for the user, we'll validate this request
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+False
+this shouldn't happen, server returned an invalid answer, in benefit of the doubt for the user, we'll validate this request
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+---------------
+Exiting program
+---------------
+Verifying structure
+--------------------
+Starting up program!
+--------------------
+last active player was None
+writing Alestorm - Wolves of the Sea
+writing No song is currently playing
+Worker finished
+---------------
+Exiting program
+---------------

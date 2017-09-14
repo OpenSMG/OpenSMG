@@ -1,0 +1,2 @@
+Received an email from a user that smg + vlc doesn't work when skinned.
+Use the skin in this folder with vlc, and try smg.

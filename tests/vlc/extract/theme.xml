@@ -1,0 +1,674 @@
+<!DOCTYPE Theme PUBLIC "-//VideoLAN//DTD VLC Skins V2.0//EN" "skin.dtd">
+<Theme version="2.0">
+  <ThemeInfo name="Slim Beam" author="Krypton" email="kryptonsyt@gmail.com" webpage="http://www.kryptonsyt.site40.net/"/>
+
+  <!-- Created using the VLC Skin Editor 0.8.6.dev (http://www.videolan.org/vlc/skineditor.html)-->
+
+  <Bitmap id="image_main_cont_blank" file="main_cont_blank.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_main_corner" file="main_corner.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_horizont_back" file="vol_horizont_back.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_horizont_front" file="vol_horizont_front.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_vertical_back" file="vol_vertical_back.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_vertical_front" file="vol_vertical_front.png" alphacolor="#FF00FF"/>
+  <Font id="zegoeuil" file="zegoeuil.ttf" size="14"/>
+  <Bitmap id="image_position_color2" file="main_pos_front_color2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_vertical_color2" file="vol_vertical_front_color2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_vertical_color3" file="vol_vertical_front_color3.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_slider_colors_all" file="slider_colors.png" alphacolor="#FF00FF">
+    <SubBitmap id="slider_color1" x="0" y="0" height="10" width="10"/>
+    <SubBitmap id="slider_color1_h" x="10" y="0" height="10" width="10"/>
+    <SubBitmap id="slider_color1_p" x="20" y="0" height="10" width="10"/>
+    <SubBitmap id="slider_color2" x="0" y="10" height="10" width="10"/>
+    <SubBitmap id="slider_color2_h" x="10" y="10" height="10" width="10"/>
+    <SubBitmap id="slider_color2_p" x="20" y="10" height="10" width="10"/>
+    <SubBitmap id="slider_color3" x="0" y="20" height="10" width="10"/>
+    <SubBitmap id="slider_color3_h" x="10" y="20" height="10" width="10"/>
+    <SubBitmap id="slider_color3_p" x="20" y="20" height="10" width="10"/>
+    <SubBitmap id="slider_color4" x="0" y="30" height="10" width="10"/>
+    <SubBitmap id="slider_color4_h" x="10" y="30" height="10" width="10"/>
+    <SubBitmap id="slider_blank" x="20" y="50" height="10" width="10"/>
+  </Bitmap>
+  <Bitmap id="image_icons_color1_all" file="main_left_color1.png" alphacolor="#FF00FF">
+    <SubBitmap id="main_image_cont1" x="0" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_cont1_hover" x="0" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_cont1_press" x="0" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_contall" x="50" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_hover" x="50" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_press" x="50" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon" x="100" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_hover" x="100" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_press" x="100" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_recon" x="150" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_hover" x="150" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_press" x="150" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon" x="200" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_hover" x="200" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_press" x="200" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon" x="250" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_hover" x="250" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_press" x="250" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson" x="300" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_hover" x="300" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_press" x="300" y="100" height="50" width="50"/>
+  </Bitmap>
+  <Bitmap id="image_volume_horizont_color2" file="vol_horizont_front_color2.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_horizont_color3" file="vol_horizont_front_color3.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_back" file="main_vertical_back.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_vertical_back_130" file="vol_vertical_back.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_position_color1" file="main_pos_front_color1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_bottomicons_all" file="main_buttom_all.png" alphacolor="#FF00FF">
+    <SubBitmap id="mainframe_image_arrow" x="25" y="0" height="50" width="25"/>
+    <SubBitmap id="mainframe_image_arrow_hover" x="25" y="50" height="50" width="25"/>
+    <SubBitmap id="mainframe_image_arrow_press" x="25" y="100" height="50" width="25"/>
+    <SubBitmap id="mainframe_image_playlist" x="50" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_playlist_hover" x="50" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_playlist_press" x="50" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_cont" x="100" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_cont_hover" x="100" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_cont_press" x="100" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_shuff" x="150" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_shuff_hover" x="150" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_shuff_press" x="150" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_prev" x="200" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_prev_hover" x="200" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_prev_press" x="200" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_slower" x="250" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_slower_hover" x="250" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_slower_press" x="250" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_pause" x="300" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_pause_hover" x="300" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_pause_press" x="300" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_faster" x="350" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_faster_hover" x="350" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_faster_press" x="350" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_next" x="400" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_next_hover" x="400" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_next_press" x="400" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_play" x="450" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_play_hover" x="450" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_play_press" x="450" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_settings" x="500" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_settings_hover" x="500" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_settings_press" x="500" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_volume" x="550" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_volume_hover" x="550" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_volume_press" x="550" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_close" x="609" y="10" height="31" width="32"/>
+    <SubBitmap id="mainframe_image_close_hover" x="609" y="60" height="31" width="32"/>
+    <SubBitmap id="mainframe_image_close_press" x="609" y="111" height="31" width="32"/>
+    <SubBitmap id="mainframe_image_info" x="662" y="12" height="26" width="28"/>
+    <SubBitmap id="mainframe_image_info_hover" x="662" y="62" height="26" width="28"/>
+    <SubBitmap id="mainframe_image_info_press" x="662" y="111" height="26" width="28"/>
+    <SubBitmap id="mainframe_image_record" x="700" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_record_hover" x="700" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_record_press" x="700" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_screen" x="762" y="12" height="26" width="28"/>
+    <SubBitmap id="mainframe_image_screen_hover" x="762" y="62" height="26" width="28"/>
+    <SubBitmap id="mainframe_image_screen_press" x="762" y="111" height="26" width="28"/>
+    <SubBitmap id="mainframe_image_colorselect" x="800" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_colorselect_hover" x="800" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_colorselect_press" x="800" y="100" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_playlist_custom" x="850" y="0" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_playlist_custom_hover" x="850" y="50" height="50" width="50"/>
+    <SubBitmap id="mainframe_image_playlist_custom_press" x="850" y="100" height="50" width="50"/>
+    <SubBitmap id="image_close2" x="950" y="0" height="50" width="50"/>
+    <SubBitmap id="image_close2_h" x="950" y="50" height="50" width="50"/>
+    <SubBitmap id="image_close2_p" x="950" y="100" height="50" width="50"/>
+  </Bitmap>
+  <Bitmap id="image_menu_icons_all" file="menu_icons.png" alphacolor="#FF00FF">
+    <SubBitmap id="image_menu_color4" x="150" y="0" height="36" width="38"/>
+    <SubBitmap id="image_menu_color4_hover" x="151" y="50" height="50" width="50"/>
+    <SubBitmap id="image_menu_color4_press" x="150" y="100" height="50" width="50"/>
+    <SubBitmap id="image_menu_color1" x="0" y="0" height="36" width="38"/>
+    <SubBitmap id="image_menu_color1_hover" x="0" y="50" height="50" width="50"/>
+    <SubBitmap id="image_menu_color1_press" x="0" y="100" height="50" width="50"/>
+    <SubBitmap id="image_menu_color2" x="50" y="0" height="36" width="38"/>
+    <SubBitmap id="image_menu_color2_hover" x="50" y="50" height="50" width="50"/>
+    <SubBitmap id="image_menu_color2_press" x="50" y="100" height="50" width="50"/>
+    <SubBitmap id="image_menu_color3" x="105" y="0" height="36" width="38"/>
+    <SubBitmap id="image_menu_color3_hover" x="103" y="50" height="50" width="50"/>
+    <SubBitmap id="image_menu_color3_press" x="100" y="100" height="50" width="50"/>
+    <SubBitmap id="image_menu_colorcheck" x="200" y="0" height="50" width="50"/>
+    <SubBitmap id="image_menu_goback" x="250" y="0" height="50" width="50"/>
+    <SubBitmap id="image_menu_goback_hover" x="250" y="50" height="50" width="50"/>
+    <SubBitmap id="image_menu_goback_press" x="250" y="100" height="50" width="50"/>
+    <SubBitmap id="image_menu_uncheck" x="310" y="11" height="26" width="30"/>
+    <SubBitmap id="image_menu_uncheck_hover" x="310" y="61" height="26" width="30"/>
+    <SubBitmap id="image_menu_uncheck_press" x="310" y="111" height="26" width="30"/>
+    <SubBitmap id="image_menu_check" x="360" y="11" height="26" width="30"/>
+    <SubBitmap id="image_menu_check_hover" x="360" y="61" height="26" width="30"/>
+    <SubBitmap id="image_menu_check_press" x="360" y="111" height="26" width="30"/>
+    <SubBitmap id="image_menu_check_inactive" x="200" y="100" height="50" width="50"/>
+    <SubBitmap id="image_menu_arrow" x="600" y="0" height="50" width="25"/>
+    <SubBitmap id="image_menu_arrow_hover" x="600" y="50" height="50" width="25"/>
+    <SubBitmap id="image_menu_arrow_press" x="600" y="100" height="50" width="25"/>
+    <SubBitmap id="image_menu_pref" x="559" y="9" height="31" width="33"/>
+    <SubBitmap id="image_menu_pref_hover" x="559" y="59" height="31" width="33"/>
+    <SubBitmap id="image_menu_pref_press" x="559" y="111" height="31" width="33"/>
+  </Bitmap>
+  <Bitmap id="image_playlist_icons_all" file="playlist_buttons.png" alphacolor="#FF00FF">
+    <SubBitmap id="playlist_image_add" x="0" y="0" height="50" width="50"/>
+    <SubBitmap id="playlist_image_add_hover" x="0" y="50" height="50" width="50"/>
+    <SubBitmap id="playlist_image_add_press" x="0" y="100" height="50" width="50"/>
+    <SubBitmap id="playlist_image_remove" x="50" y="0" height="50" width="50"/>
+    <SubBitmap id="playlist_image_remove_hover" x="50" y="50" height="50" width="50"/>
+    <SubBitmap id="playlist_image_remove_press" x="50" y="100" height="50" width="50"/>
+    <SubBitmap id="playlist_image_load" x="100" y="0" height="50" width="50"/>
+    <SubBitmap id="playlist_image_load_hover" x="100" y="50" height="50" width="50"/>
+    <SubBitmap id="playlist_image_load_press" x="100" y="100" height="50" width="50"/>
+    <SubBitmap id="playlist_image_save" x="150" y="0" height="50" width="50"/>
+    <SubBitmap id="playlist_image_save_hover" x="150" y="50" height="50" width="50"/>
+    <SubBitmap id="playlist_image_save_press" x="150" y="100" height="50" width="50"/>
+  </Bitmap>
+  <Bitmap id="image_playlist_topbar_all" file="playlist_topbar.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_icons_color2_all" file="main_left_color2.png" alphacolor="#FF00FF">
+    <SubBitmap id="main_image_cont1_color2" x="0" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_cont1_hover_color2" x="0" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_cont1_press_color2" x="0" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_color2" x="50" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_hover_color2" x="50" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_press_color2" x="50" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_color2" x="100" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_hover_color2" x="100" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_press_color2" x="100" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_color2" x="150" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_hover_color2" x="150" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_press_color2" x="150" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_color2" x="200" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_hover_color2" x="200" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_press_color2" x="200" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_color2" x="251" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_hover_color2" x="251" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_press_color2" x="251" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_color2" x="300" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_hover_color2" x="300" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_press_color2" x="300" y="100" height="50" width="50"/>
+  </Bitmap>
+  <Bitmap id="image_icons_color3_all" file="main_left_color3.png" alphacolor="#FF00FF">
+    <SubBitmap id="main_image_cont1_color3" x="0" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_cont1_hover_color3" x="0" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_cont1_press_color3" x="0" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_color3" x="50" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_hover_color3" x="50" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_press_color3" x="50" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_color3" x="100" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_hover_color3" x="100" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_press_color3" x="100" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_color3" x="150" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_hover_color3" x="150" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_press_color3" x="150" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_color3" x="200" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_hover_color3" x="200" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_press_color3" x="200" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_color3" x="251" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_hover_color3" x="251" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_press_color3" x="251" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_color3" x="300" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_hover_color3" x="300" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_press_color3" x="300" y="100" height="50" width="50"/>
+  </Bitmap>
+  <Bitmap id="image_icons_color4_all" file="main_left_color4.png" alphacolor="#FF00FF">
+    <SubBitmap id="main_image_cont1_color4" x="0" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_cont1_hover_color4" x="0" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_cont1_press_color4" x="0" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_color4" x="50" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_hover_color4" x="50" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_contall_press_color4" x="50" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_color4" x="100" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_hover_color4" x="100" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_shuffon_press_color4" x="100" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_color4" x="150" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_hover_color4" x="150" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_recon_press_color4" x="150" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_color4" x="200" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_hover_color4" x="200" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_playlist_customon_press_color4" x="200" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_color4" x="251" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_hover_color4" x="251" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_volumeon_press_color4" x="251" y="100" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_color4" x="300" y="0" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_hover_color4" x="300" y="50" height="50" width="50"/>
+    <SubBitmap id="main_image_settingson_press_color4" x="300" y="100" height="50" width="50"/>
+  </Bitmap>
+  <Bitmap id="image_volume_horizont_color4" file="vol_horizont_front_color4.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_volume_vertical_color4" file="vol_vertical_front_color4.png" alphacolor="#FF00FF"/>
+  <Font id="segoeui" file="segoeui.ttf" size="14"/>
+  <Bitmap id="image_position_color3_JPG" file="main_pos_front_color3.jpg" alphacolor="#FF00FF"/>
+  <Bitmap id="image_position_color4_JPG" file="main_pos_front_color4.jpg" alphacolor="#FF00FF"/>
+  <Bitmap id="image_menu_all" file="menu_settings.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_backgrounds_all" file="backgrounds_all.png" alphacolor="#FF00FF">
+    <SubBitmap id="image_black_650x305" x="0" y="0" height="350" width="650"/>
+    <SubBitmap id="image_posbar_650x10" x="650" y="350" height="10" width="650"/>
+    <SubBitmap id="image_posbar_650x5" x="650" y="350" height="10" width="650"/>
+    <SubBitmap id="image_minimalbar_10x10" x="650" y="0" height="10" width="10"/>
+    <SubBitmap id="image_bottombar_650x50" x="0" y="350" height="50" width="650"/>
+    <SubBitmap id="image_bottombar_475x50" x="0" y="350" height="50" width="475"/>
+    <SubBitmap id="image_bottombar_175x50" x="0" y="350" height="50" width="175"/>
+    <SubBitmap id="image_bottombar_650x5_resize" x="0" y="350" height="5" width="650"/>
+    <SubBitmap id="image_bottombar_5x50" x="0" y="350" height="50" width="5"/>
+    <SubBitmap id="image_black_650x26" x="0" y="0" height="26" width="650"/>
+    <SubBitmap id="image_black_650x5" x="0" y="0" height="5" width="650"/>
+    <SubBitmap id="image_grey_300x5" x="650" y="0" height="5" width="300"/>
+    <SubBitmap id="image_grey_300x26" x="650" y="0" height="26" width="300"/>
+    <SubBitmap id="image_menu_300x350" x="0" y="700" height="350" width="300"/>
+    <SubBitmap id="image_menu_300x5" x="0" y="700" height="5" width="300"/>
+    <SubBitmap id="image_minimalbar_650x10" x="650" y="0" height="10" width="650"/>
+    <SubBitmap id="image_infobar" x="0" y="350" height="50" width="300"/>
+    <SubBitmap id="greyBackground" x="0" y="350" height="350" width="650"/>
+  </Bitmap>
+  <Bitmap id="image_hotkeys_all" file="menu_hotkeys.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_menu_topbar" file="menu_main_topbar.png" alphacolor="#FF00FF"/>
+  <Bitmap id="image_menu_goto_all" file="menu_goto_all.png" alphacolor="#FF00FF">
+    <SubBitmap id="image_menu_goto_playlist" x="0" y="50" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_playlist_h" x="300" y="50" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_playlist_p" x="600" y="50" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_settings" x="0" y="0" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_settings_h" x="300" y="0" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_settings_p" x="600" y="0" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_hotkeys" x="0" y="100" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_hotkeys_h" x="300" y="100" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_hotkeys_p" x="600" y="100" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_minimal" x="0" y="150" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_minimal_h" x="300" y="150" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_minimal_p" x="600" y="150" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_open" x="0" y="200" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_open_h" x="300" y="200" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_open_p" x="600" y="200" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_highlight" x="0" y="250" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_highlight_h" x="300" y="250" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_highlight_p" x="600" y="250" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_defaultpl" x="0" y="300" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_defaultpl_h" x="300" y="300" height="50" width="300"/>
+    <SubBitmap id="image_menu_goto_defaultpl_p" x="600" y="300" height="50" width="300"/>
+  </Bitmap>
+  <Bitmap id="image_hint" file="hint.png" alphacolor="#FF00FF"/>
+  <Bitmap id="setingBG" file="setingBG.png" alphacolor="#FF00FF"/>
+  <Bitmap id="volIcon" file="volIcon.PNG" alphacolor="#FF00FF"/>
+  <Bitmap id="vol_horizont_back" file="vol_horizont_back.png" alphacolor="#FF00FF"/>
+  <Bitmap id="topBar_365" file="topBar.png" alphacolor="#FF00FF"/>
+  <Bitmap id="volIcon_370" file="volIcon.PNG" alphacolor="#FF00FF"/>
+  <Bitmap id="volIcon_371" file="volIcon.PNG" alphacolor="#FF00FF"/>
+  <Bitmap id="eq_off_text" file="eq_off_text.png" alphacolor="#FF00FF"/>
+  <Bitmap id="eq_on_text" file="eq_on_text.png" alphacolor="#FF00FF"/>
+  <Bitmap id="eq_slide_active" file="eq_slide_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="eq_slide_blank" file="eq_slide_blank.png" alphacolor="#FF00FF"/>
+  <Bitmap id="eq_slide_front" file="eq_slide_front.png" alphacolor="#FF00FF"/>
+  <Bitmap id="preamp_front_bg" file="preamp_front_bg.png" alphacolor="#FF00FF"/>
+  <Bitmap id="eq_background" file="eq_background.png" alphacolor="#FF00FF"/>
+  <Bitmap id="eq_off" file="eq_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="eq_on" file="eq_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="mainClose" file="mainClose.png" alphacolor="#FF00FF"/>
+  <Bitmap id="mainMini" file="mainMini.png" alphacolor="#FF00FF"/>
+  <Bitmap id="mainCloseh" file="mainCloseh.png" alphacolor="#FF00FF"/>
+  <Bitmap id="mainMinih" file="mainMinih.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_scroll_back" file="playlist_scroll_back.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_background" file="playlist_background.png" alphacolor="#FF00FF"/>
+  <Font id="segoeui_408" file="segoeui.ttf"/>
+  <Bitmap id="playlist_tree_back" file="playlist_tree_back.png" alphacolor="#FF00FF"/>
+  <Bitmap id="main_bottom_resize" file="main_bottom_resize.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_bottom" file="playlist_bottom.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_add" file="playlist_add.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_add_active" file="playlist_add_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_add_hover" file="playlist_add_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_scroll_slide" file="playlist_scroll_slide.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_scroll_slide_active" file="playlist_scroll_slide_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_scroll_slide_hover" file="playlist_scroll_slide_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="main_right_resize" file="main_right_resize.png" alphacolor="#FF00FF"/>
+  <Bitmap id="corner_inactive" file="corner_inactive.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_remove" file="playlist_remove.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_remove_active" file="playlist_remove_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_remove_hover" file="playlist_remove_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_load" file="playlist_load.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_load_active" file="playlist_load_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_load_hover" file="playlist_load_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_save" file="playlist_save.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_save_active" file="playlist_save_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_save_hover" file="playlist_save_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_shuff_active" file="playlist_shuff_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_shuff_off" file="playlist_shuff_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_shuff_off_hover" file="playlist_shuff_off_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_shuff_on" file="playlist_shuff_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_shuff_on_hover" file="playlist_shuff_on_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_cont_active" file="playlist_cont_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_cont_off" file="playlist_cont_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_cont_off_hover" file="playlist_cont_off_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_cont_on" file="playlist_cont_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_cont_on_hover" file="playlist_cont_on_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_cont_blank" file="playlist_cont_blank.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_cont1" file="playlist_cont1.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_cont1_active" file="playlist_cont1_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_cont1_hover" file="playlist_cont1_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_rec" file="playlist_rec.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_rec_active" file="playlist_rec_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_rec_hover" file="playlist_rec_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_rec_on" file="playlist_rec_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_rec_on_hover" file="playlist_rec_on_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_remove_430" file="playlist_remove.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_remove_431" file="playlist_remove.png" alphacolor="#FF00FF"/>
+  <Bitmap id="main_close" file="main_close.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_close" file="playlist_close.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_close_active" file="playlist_close_active.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_close_hover" file="playlist_close_hover.png" alphacolor="#FF00FF"/>
+  <Font id="segoeui_435" file="segoeui.ttf"/>
+  <Font id="fontplay" file="segoeuil.ttf" size="28"/>
+  <Font id="segoeuil_437" file="segoeuil.ttf"/>
+  <Font id="segoeuil_438" file="segoeuil.ttf"/>
+  <Bitmap id="main_playlist_off" file="main_playlist_off.png" alphacolor="#FF00FF"/>
+  <Bitmap id="main_playlist_off_hover" file="main_playlist_off_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="main_playlist_on" file="main_playlist_on.png" alphacolor="#FF00FF"/>
+  <Bitmap id="main_playlist_on_hover" file="main_playlist_on_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="main_playlist_pressed" file="main_playlist_pressed.png" alphacolor="#FF00FF"/>
+  <Bitmap id="main_playlist_pressed_439" file="main_playlist_pressed.png" alphacolor="#FF00FF"/>
+
+  <Window id="playlist" visible="false" x="100" y="100">
+    <Layout id="playlistframe" width="568" height="382" minwidth="520" maxwidth="1280" minheight="294" maxheight="720">
+      <Image id="playlist_scroll_background" x="561" image="playlist_scroll_back" resize="scale" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="playlist_back" image="playlist_background" action="move" resize="scale" rightbottom="righttop"/>
+      <Text text="play" font="fontplay" color="#6D6D6D" id="Playlist_title_play" x="28" y="9" width="70"/>
+      <Text text="list" font="fontplay" color="#6d6d6d" id="Playlist_title_list" x="79" y="9" width="40"/>
+      <Playtree id="playlist_tree" font="segoeui_408" bgcolor1="#000000" bgcolor2="#000000" fgcolor="#FFFFFF" selcolor="#333333" playcolor="#FFFFFF" bgimage="greyBackground" y="67" width="561" height="261" rightbottom="rightbottom">
+        <Slider id="playlist_slider" x="564" points="(0,15),(0,310)" tooltiptext="" up="playlist_scroll_slide" down="playlist_scroll_slide_active" over="playlist_scroll_slide_hover" lefttop="righttop" rightbottom="rightbottom"/>
+      </Playtree>
+      <Image id="playlist_bottom_resize" y="376" image="main_bottom_resize" action="resizeS" resize="scale" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Image id="Playlist_bottombar" y="325" image="playlist_bottom" action="move" resize="scale" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Image id="playlist_right_resize" x="564" y="327" image="main_right_resize" action="resizeE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="playlist_right_resize2" x="564" y="327" image="main_right_resize" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="playlist_add" down="playlist_add_active" over="playlist_add_hover" action="playlist.add()" id="playlist_add_file" x="403" y="340" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="playlist_corner" x="560" y="373" image="corner_inactive" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="playlist_remove" down="playlist_remove_active" over="playlist_remove_hover" action="playtree.del()" id="playlist_remove_file" x="444" y="340" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="playlist_load" down="playlist_load_active" over="playlist_load_hover" action="playlist.load()" id="playlist_load_list" x="485" y="340" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="playlist_save" down="playlist_save_active" over="playlist_save_hover" action="playlist.save()" id="playlist_save_list" x="526" y="340" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Checkbox state="playlist.isRandom" up1="playlist_shuff_off" up2="playlist_shuff_on" down1="playlist_shuff_active" down2="playlist_shuff_active" over1="playlist_shuff_off_hover" over2="playlist_shuff_on_hover" action1="playlist.setRandom(true)" action2="playlist.setRandom(false)" id="Playlist_shuffle_button" x="56" y="340" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Checkbox state="playlist.isLoop" up1="playlist_cont_off" up2="playlist_cont_on" down1="playlist_cont_active" down2="playlist_cont_active" over1="playlist_cont_off_hover" over2="playlist_cont_on_hover" action1="playlist.setLoop(true)" action2="playlist.setLoop(false);playlist.setRepeat(true)" id="playlist_cont" x="15" y="340" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Checkbox state="playlist.isRepeat" up1="playlist_cont_blank" up2="playlist_cont1" down1="playlist_cont_blank" down2="playlist_cont1_active" over1="playlist_cont_blank" over2="playlist_cont1_hover" action1="playlist.setRepeat(true)" action2="playlist.setRepeat(false);playlist.setLoop(false)" id="playlist_cont_1" x="15" y="340" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Anchor id="playlist_anchor_left" priority="0"/>
+      <Anchor id="playlist_anchor_right" priority="0" lefttop="righttop"/>
+      <Anchor id="playlist_anchor_bottom_left" priority="0" lefttop="leftbottom"/>
+      <Anchor id="playlist_anchor_bottom_right" priority="0" lefttop="rightbottom"/>
+      <Text text="$N" font="segoeui_408" color="#CCCCCC" id="playlist_current" x="134" y="35" width="300"/>
+      <Button up="playlist_rec" down="playlist_rec_active" over="playlist_rec_hover" action="vlc.toggleRecord()" id="playlist_record_1" x="97" y="340" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Button up="playlist_rec_on" down="playlist_rec_active" over="playlist_rec_on_hover" action="vlc.toggleRecord()" id="playlist_record_2" x="97" y="340" lefttop="leftbottom" rightbottom="leftbottom" help="vlc.isRecording"/>
+      <Button up="main_close" down="playlist_close_active" over="playlist_close_hover" action="playlist.hide()" id="playlist_close1" x="517" y="15" lefttop="righttop" rightbottom="righttop"/>
+      <Text text="Now Playing:" font="segoeui_408" color="#CCCCCC" id="NowPlaying" x="134" y="19" width="350"/>
+    </Layout>
+  </Window>
+  <Window id="pref">
+    <Layout id="pr" width="650" height="360" minwidth="650" maxwidth="650" minheight="360" maxheight="360">
+      <Image id="prefback" image="setingBG" action="move" rightbottom="rightbottom"/>
+      <Anchor id="mainframe_anchor_0_0" priority="2"/>
+      <Anchor id="mainframe_anchor_0_360" x="215" y="418" priority="2" lefttop="leftbottom"/>
+      <Anchor id="mainframe_anchor_650_0" x="650" priority="2" lefttop="righttop"/>
+      <Anchor id="mainframe_anchor_650_360" x="650" y="360" priority="2" lefttop="rightbottom"/>
+      <Anchor id="mainframe_anchor_550_310" x="550" y="310" priority="2" lefttop="rightbottom"/>
+      <Anchor id="mainframe_anchor_25_310" x="25" y="310" priority="2" lefttop="leftbottom"/>
+      <Panel id="menu_sett_panel" width="650" height="360" lefttop="righttop" rightbottom="rightbottom">
+        <Checkbox state="vlc.isOnTop" up1="image_menu_uncheck" up2="image_menu_check" down1="image_menu_uncheck_press" down2="image_menu_check_press" over1="image_menu_uncheck_hover" over2="image_menu_check_hover" action1="vlc.onTop()" action2="vlc.onTop()" id="menu_sett_alwaysontop" x="163" y="225"/>
+        <Button up="image_menu_color1" down="image_menu_color1_press" over="image_menu_color1_hover" action="color.setLayout(color1)" id="menu_sett_color_1" x="172" y="128"/>
+        <Button up="image_menu_color2" down="image_menu_color2_press" over="image_menu_color2_hover" action="color.setLayout(color2)" id="menu_sett_color_2" x="126" y="128"/>
+        <Button up="image_menu_color3" down="image_menu_color3_press" over="image_menu_color3_hover" action="color.setLayout(color3)" id="menu_sett_color_3" x="81" y="128"/>
+        <Button up="image_menu_color4" down="image_menu_color4_press" over="image_menu_color4_hover" action="color.setLayout(color4)" id="menu_sett_color_4" x="35" y="128"/>
+        <Image id="menu_colorcheck_color1" x="165" y="114" image="image_menu_colorcheck" visible="color1.isActive"/>
+        <Image id="menu_colorcheck_color2" x="120" y="115" image="image_menu_colorcheck" visible="color2.isActive"/>
+        <Image id="menu_colorcheck_color3" x="76" y="115" image="image_menu_colorcheck" visible="color3.isActive"/>
+        <Image id="menu_colorcheck_color4" x="30" y="115" image="image_menu_colorcheck" visible="color4.isActive"/>
+        <Button up="image_menu_pref" down="image_menu_pref_press" over="image_menu_pref_hover" action="dialogs.prefs()" id="menu_native_pref" x="553" y="20" help="Advance Settings"/>
+        <Checkbox state="posbar.setLayout(posbar_big)" up1="image_menu_uncheck" up2="image_menu_check" down1="image_menu_uncheck_press" down2="image_menu_check_press" over1="image_menu_uncheck_hover" over2="image_menu_check_hover" action1="posbar.setLayout(posbar_big)" action2="posbar.setLayout(posbar_small)" id="menu_sett_posbar" x="758" y="327" visible="false"/>
+        <Button up="mainframe_image_info" down="mainframe_image_info_press" over="mainframe_image_info_hover" action="dialogs.fileInfo()" id="mainframe_info" x="164" y="291" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="mainframe_image_screen" down="mainframe_image_screen_press" over="mainframe_image_screen_hover" action="vlc.snapshot()" id="mainframe_screenshot" x="164" y="259" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="mainframe_image_close" down="mainframe_image_close_press" over="mainframe_image_close_hover" action="pref.hide()" id="closePref" x="591" y="20"/>
+        <Panel id="equalizerHolder" width="0" height="0">
+          <Image id="eqback" x="230" y="59" image="eq_background"/>
+          <Slider id="preamp" x="266" y="132" points="(3,188),(3,0)" value="equalizer.preamp" tooltiptext="" up="eq_slide_blank" down="eq_slide_active" over="eq_slide_active">
+            <SliderBackground id="preamp_front" image="preamp_front_bg" nbhoriz="189"/>
+          </Slider>
+          <Checkbox state="equalizer.isEnabled" up1="eq_off" up2="eq_on" action1="equalizer.enable()" action2="equalizer.disable()" id="eq_on_off" x="556" y="97" lefttop="righttop" rightbottom="righttop"/>
+          <Slider id="60" x="308" y="133" points="(3,188),(3,0)" value="equalizer.band(0)" tooltiptext="" up="eq_slide_blank" down="eq_slide_active" over="eq_slide_active">
+            <SliderBackground id="60_front" image="preamp_front_bg" nbhoriz="189"/>
+          </Slider>
+          <Slider id="170" x="347" y="132" points="(3,188),(3,0)" value="equalizer.band(1)" tooltiptext="" up="eq_slide_blank" down="eq_slide_active" over="eq_slide_active">
+            <SliderBackground id="170_front" image="preamp_front_bg" nbhoriz="189"/>
+          </Slider>
+          <Slider id="310" x="384" y="132" points="(3,188),(3,0)" value="equalizer.band(2)" tooltiptext="" up="eq_slide_blank" down="eq_slide_active" over="eq_slide_active">
+            <SliderBackground id="310_front" image="preamp_front_bg" nbhoriz="189"/>
+          </Slider>
+          <Slider id="600" x="423" y="132" points="(3,188),(3,0)" value="equalizer.band(3)" tooltiptext="" up="eq_slide_blank" down="eq_slide_active" over="eq_slide_active">
+            <SliderBackground id="600_front" image="preamp_front_bg" nbhoriz="189"/>
+          </Slider>
+          <Slider id="1k" x="463" y="134" points="(3,188),(3,0)" value="equalizer.band(4)" tooltiptext="" up="eq_slide_blank" down="eq_slide_active" over="eq_slide_active">
+            <SliderBackground id="1k_front" image="preamp_front_bg" nbhoriz="189"/>
+          </Slider>
+          <Slider id="3k" x="502" y="136" points="(3,188),(3,0)" value="equalizer.band(5)" tooltiptext="" up="eq_slide_blank" down="eq_slide_active" over="eq_slide_active">
+            <SliderBackground id="3k_front" image="preamp_front_bg" nbhoriz="189"/>
+          </Slider>
+          <Slider id="6k" x="541" y="134" points="(3,188),(3,0)" value="equalizer.band(6)" tooltiptext="" up="eq_slide_blank" down="eq_slide_active" over="eq_slide_active">
+            <SliderBackground id="6k_front" image="preamp_front_bg" nbhoriz="189"/>
+          </Slider>
+          <Slider id="16k" x="581" y="134" points="(3,188),(3,0)" value="equalizer.band(9)" tooltiptext="" up="eq_slide_blank" down="eq_slide_active" over="eq_slide_active">
+            <SliderBackground id="16k_front" image="preamp_front_bg" nbhoriz="189"/>
+          </Slider>
+          <Image id="eq_is_off" x="528" y="97" image="eq_off_text" lefttop="rightbottom" rightbottom="righttop"/>
+          <Image id="eq_is_on" x="529" y="97" image="eq_on_text" lefttop="righttop" rightbottom="righttop" visible="equalizer.isEnabled"/>
+        </Panel>
+      </Panel>
+    </Layout>
+  </Window>
+  <Window id="MainWindow">
+    <Layout id="MainFrame" width="650" height="406" minwidth="650" maxwidth="1980" minheight="55" maxheight="1980">
+      <Video id="video_noinfo_menu_big" y="-2" width="650" height="350" autoresize="false" rightbottom="rightbottom"/>
+      <Anchor id="mainframe_anchor_0_03" priority="2"/>
+      <Anchor id="mainframe_anchor_0_3603" y="360" priority="2" lefttop="leftbottom"/>
+      <Anchor id="mainframe_anchor_650_03" x="650" priority="2" lefttop="righttop"/>
+      <Anchor id="mainframe_anchor_650_3603" x="650" y="360" priority="2" lefttop="rightbottom"/>
+      <Anchor id="mainframe_anchor_550_3103" x="550" y="310" priority="2" lefttop="rightbottom"/>
+      <Anchor id="mainframe_anchor_25_3103" x="25" y="310" priority="2" lefttop="leftbottom"/>
+      <Image id="greybackgroundplayet" y="-2" image="greyBackground" rightbottom="rightbottom"/>
+      <Panel id="bottombar_panel" y="348" width="650" height="60" lefttop="leftbottom" rightbottom="rightbottom">
+        <Image id="bottom_background_450px_max" x="175" y="10" image="image_bottombar_475x50" action="move" action2="MainWindow.maximize()" lefttop="leftbottom" rightbottom="rightbottom" visible="not Mainwindow.isMaximized()"/>
+        <Image id="bottom_background_450px_unmax" x="175" y="10" image="image_bottombar_475x50" action="move" action2="MainWindow.unmaximize()" lefttop="leftbottom" rightbottom="rightbottom" visible="MainWindow.isMaximized()"/>
+        <Image id="bottom_position_back" image="image_posbar_650x10" lefttop="leftbottom" rightbottom="rightbottom"/>
+        <Slider id="bottom_position_color1" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color1" down="slider_color1_p" over="slider_color1_h" lefttop="leftbottom" rightbottom="rightbottom">
+          <SliderBackground id="mainframe_pos_front_colour1" image="image_position_color1" nbvert="651"/>
+        </Slider>
+        <Slider id="bottom_position_color2" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color2" down="slider_color2_p" over="slider_color2_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color2.isActive">
+          <SliderBackground id="mainframe_pos_front_colour2" image="image_position_color2" nbvert="651"/>
+        </Slider>
+        <Slider id="bottom_position_color3" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color3" down="slider_color3_p" over="slider_color3_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color3.isActive">
+          <SliderBackground id="mainframe_pos_front_colour3" image="image_position_color3_JPG" nbvert="651"/>
+        </Slider>
+        <Slider id="bottom_position_color4" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color4" down="slider_color1_p" over="slider_color4_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color4.isActive">
+          <SliderBackground id="mainframe_pos_front_colour4" image="image_position_color4_JPG" nbvert="651"/>
+        </Slider>
+        <Image id="bottom_posbar_black" image="image_black_650x5" lefttop="leftbottom" rightbottom="rightbottom" visible="posbar_small.isActive"/>
+        <Image id="menu_back_5px" x="350" image="image_menu_300x5" lefttop="rightbottom" rightbottom="rightbottom" visible="posbar_small.isActive and (menu_on.isActive or menu_main.isActive or menu_hotkeys.isActive or customplaylist_on.isActive)"/>
+        <Image id="bottom_resize_S" y="55" image="image_bottombar_650x5_resize" action="resizeS" lefttop="leftbottom" rightbottom="rightbottom"/>
+      </Panel>
+      <Panel id="bottom_left0_panel" y="358" width="175" height="50" lefttop="leftbottom" rightbottom="leftbottom">
+        <Image id="mainframe_background_left_max" image="image_bottombar_175x50" action="move" action2="MainWindow.maximize()" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Image id="mainframe_background_left_unmax" image="image_bottombar_175x50" action="move" action2="MainWindow.unmaximize()" lefttop="leftbottom" rightbottom="leftbottom" visible="MainWindow.isMaximized()"/>
+        <Text text="$T / $D" font="zegoeuil" color="#ffffff" id="mainframe_time" x="112" y="15" width="110" lefttop="leftbottom" rightbottom="leftbottom"/>
+      </Panel>
+      <Panel id="bottom_control_panel" x="201" y="358" width="250" height="50" lefttop="leftbottom" rightbottom="rightbottom" xkeepratio="true">
+        <Button up="mainframe_image_slower" down="mainframe_image_slower_press" over="mainframe_image_slower_hover" action="playlist.previous()" id="mainframe_slower" x="50" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Checkbox state="vlc.isPlaying" up1="mainframe_image_play" up2="mainframe_image_pause" down1="mainframe_image_play_press" down2="mainframe_image_pause_press" over1="mainframe_image_play_hover" over2="mainframe_image_pause_hover" action1="vlc.play()" action2="vlc.pause()" id="mainframe_play_pause" x="100" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="mainframe_image_faster" down="mainframe_image_faster_press" over="mainframe_image_faster_hover" action="playlist.next()" id="mainframe_faster" x="150" lefttop="leftbottom" rightbottom="leftbottom"/>
+      </Panel>
+      <Panel id="bottom_right_panel" x="446" y="358" width="200" height="50" lefttop="rightbottom" rightbottom="rightbottom">
+        <Checkbox state="pref.isVisible" up1="mainframe_image_settings" up2="main_image_settingson" down1="mainframe_image_settings_press" down2="main_image_settingson_press" over1="mainframe_image_settings_hover" over2="main_image_settingson_hover" action1="pref.show();" action2="pref.hide();" id="mainframe_menu" x="147" lefttop="rightbottom" rightbottom="rightbottom"/>
+        <Checkbox state="pref.isVisible" up1="mainframe_image_settings" up2="main_image_settingson_color2" down1="mainframe_image_settings_press" down2="main_image_settingson_press_color2" over1="mainframe_image_settings_hover" over2="main_image_settingson_hover_color2" action1="pref.show();" action2="pref.hide();" id="mainframe_menu_color2" x="147" lefttop="rightbottom" rightbottom="rightbottom" visible="color2.isActive"/>
+        <Checkbox state="pref.isVisible" up1="mainframe_image_settings" up2="main_image_settingson_color3" down1="mainframe_image_settings_press" down2="main_image_settingson_press_color3" over1="mainframe_image_settings_hover" over2="main_image_settingson_hover_color3" action1="pref.show();" action2="pref.hide();" id="mainframe_menu_color3" x="147" lefttop="rightbottom" rightbottom="rightbottom" visible="color3.isActive"/>
+        <Checkbox state="pref.isVisible" up1="mainframe_image_settings" up2="main_image_settingson_color4" down1="mainframe_image_settings_press" down2="main_image_settingson_press_color4" over1="mainframe_image_settings_hover" over2="main_image_settingson_hover_color4" action1="pref.show();" action2="pref.hide();" id="mainframe_menu_color4" x="147" lefttop="rightbottom" rightbottom="rightbottom" visible="color4.isActive"/>
+        <Image id="soundicon" x="-23" y="18" image="volIcon"/>
+        <Panel id="volumeSliderHolder" x="-60" y="1" width="175" height="50" lefttop="rightbottom" rightbottom="rightbottom">
+          <Image id="fs_volume_background" x="54" y="19" image="image_volume_horizont_back" lefttop="rightbottom" rightbottom="rightbottom"/>
+          <Slider id="fs_vol_color1x" x="54" y="19" points="(0,5),(100,5)" value="volume" tooltiptext="" up="slider_color1" down="slider_color1_p" over="slider_color1_h" lefttop="rightbottom" rightbottom="rightbottom" visible="color1.isActive">
+            <SliderBackground id="volume_horizont_frontx" image="image_volume_horizont_front" nbvert="101"/>
+          </Slider>
+          <Slider id="fs_vol_color2x" x="54" y="19" points="(0,5),(100,5)" value="volume" tooltiptext="" up="slider_color2" down="slider_color2_p" over="slider_color2_h" lefttop="rightbottom" rightbottom="rightbottom" visible="color2.isActive">
+            <SliderBackground id="volume_horizont_front_color2x" image="image_volume_horizont_color2" nbvert="101"/>
+          </Slider>
+          <Slider id="fs_vol_color3x" x="54" y="19" points="(0,5),(100,5)" value="volume" tooltiptext="" up="slider_color3" down="slider_color3_p" over="slider_color3_h" lefttop="rightbottom" rightbottom="rightbottom" visible="color3.isActive">
+            <SliderBackground id="volume_horizont_front_color3x" image="image_volume_horizont_color3" nbvert="101"/>
+          </Slider>
+          <Slider id="fs_vol_color4x" x="54" y="19" points="(0,5),(100,5)" value="volume" tooltiptext="" up="slider_color4" down="slider_color1_p" over="slider_color4_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color4.isActive">
+            <SliderBackground id="volume_horizont_front_color4x" image="image_volume_horizont_color4" nbvert="101"/>
+          </Slider>
+        </Panel>
+        <Image id="bottom_resize_E" x="198" image="image_bottombar_5x50" action="resizeE" lefttop="rightbottom" rightbottom="rightbottom"/>
+        <Checkbox state="playlist.isVisible" up1="main_playlist_off" up2="main_playlist_on" down1="main_playlist_pressed" down2="main_playlist_pressed" over1="main_playlist_off_hover" over2="main_playlist_on_hover" action1="playlist.show();" action2="playlist.hide();" id="playlistButton" x="118" y="11" lefttop="rightbottom" rightbottom="rightbottom"/>
+        <Image id="bottom_corner" x="193" y="39" image="image_main_corner" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      </Panel>
+      <Panel id="closeButtonHolder" y="358" width="100" height="50" lefttop="leftbottom" rightbottom="leftbottom">
+        <Checkbox state="false" up1="mainClose" up2="mainClose" down1="mainClose" down2="mainClose" over1="mainCloseh" over2="mainCloseh" action1="vlc.quit()" action2="vlc.quit()" id="mainCloseButton" x="-2" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Checkbox state="false" up1="mainMini" up2="mainMini" down1="mainMini" down2="mainMini" over1="mainMinih" over2="mainMinih" action1="vlc.minimize()" action2="vlc.minimize()" id="mainMiniButton" x="42"/>
+      </Panel>
+    </Layout>
+  </Window>
+  <Window id="Hidden" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="Panel_1" width="650" height="360">
+    </Layout>
+    <Layout id="Panel_2" width="650" height="360">
+    </Layout>
+    <Layout id="Panel_0" width="650" height="360">
+    </Layout>
+  </Window>
+  <Window id="VolumeWindow" visible="false">
+    <Layout id="VolumeFrame" width="50" height="160">
+      <Anchor id="volume_anchor_0_0" priority="0"/>
+      <Anchor id="volume_anchor_50_0" x="50" priority="0" lefttop="righttop"/>
+      <Anchor id="volume_anchor_0_160" y="160" priority="0" lefttop="leftbottom"/>
+      <Anchor id="volume_anchor_50_160" x="50" y="160" priority="0" lefttop="rightbottom"/>
+      <Image id="volume_vertical_background" image="image_volume_back" action="move"/>
+      <Image id="volume_vertical_slider_background" x="20" y="45" image="image_volume_vertical_back"/>
+      <Text text="$V" font="zegoeuil" alignment="center" color="#ffffff" id="volume_vertical_text" y="18" width="50"/>
+      <Slider id="volume_vertical_slider_color1" x="20" y="45" points="(5,100),(5,0)" value="volume" tooltiptext="" up="slider_color1" down="slider_color1_p" over="slider_color1_h">
+        <SliderBackground id="volume_vertical_front_color1" image="image_volume_vertical_front" nbhoriz="101"/>
+      </Slider>
+      <Slider id="volume_vertical_slider_color2" x="20" y="45" points="(5,100),(5,0)" value="volume" tooltiptext="" up="slider_color2" down="slider_color2_p" over="slider_color2_h" visible="color2.isActive">
+        <SliderBackground id="volume_vertical_front_color2" image="image_volume_vertical_color2" nbhoriz="101"/>
+      </Slider>
+      <Slider id="volume_vertical_slider_color3" x="20" y="45" points="(5,100),(5,0)" value="volume" tooltiptext="" up="slider_color3" down="slider_color3_p" over="slider_color3_h" visible="color3.isActive">
+        <SliderBackground id="volume_vertical_front_color3" image="image_volume_vertical_color3" nbhoriz="101"/>
+      </Slider>
+      <Slider id="volume_vertical_slider_color4" x="20" y="45" points="(5,100),(5,0)" value="volume" tooltiptext="" up="slider_color4" down="slider_color1_p" over="slider_color4_h" visible="color4.isActive">
+        <SliderBackground id="volume_vertical_front_color4" image="image_volume_vertical_color4" nbhoriz="101"/>
+      </Slider>
+    </Layout>
+  </Window>
+  <Window id="color" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="color1" width="650" height="360">
+    </Layout>
+    <Layout id="color3" width="650" height="360">
+    </Layout>
+    <Layout id="color4" width="650" height="360">
+    </Layout>
+    <Layout id="color2" width="650" height="360">
+    </Layout>
+  </Window>
+  <Window id="fullscreenController">
+    <Layout id="fswindow" width="650" height="61" minwidth="625" maxwidth="2000" minheight="61" maxheight="2000">
+      <Image id="fs_position" image="image_posbar_650x10" resize="scale" lefttop="leftbottom" rightbottom="rightbottom" visible="posbar_big.isActive"/>
+      <Image id="fs_position_small" y="5" image="image_posbar_650x5" resize="scale" lefttop="leftbottom" rightbottom="rightbottom" visible="posbar_small.isActive"/>
+      <Slider id="fs_pos_color1" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color1" down="slider_color1_p" over="slider_color1_h" lefttop="leftbottom" rightbottom="rightbottom" visible="posbar_big.isActive">
+        <SliderBackground id="fs_pos_back" image="image_position_color1" nbvert="651"/>
+      </Slider>
+      <Slider id="fs_pos_color2" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color2" down="slider_color2_p" over="slider_color2_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color2.isActive and posbar_big.isActive">
+        <SliderBackground id="fs_pos_back_color2" image="image_position_color2" nbvert="651"/>
+      </Slider>
+      <Slider id="fs_pos_color3" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color3" down="slider_color3_p" over="slider_color3_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color3.isActive and posbar_big.isActive">
+        <SliderBackground id="fs_pos_back_color3" image="image_position_color3_JPG" nbvert="651"/>
+      </Slider>
+      <Slider id="fs_pos_color4" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color4" down="slider_color1_p" over="slider_color4_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color4.isActive and posbar_big.isActive">
+        <SliderBackground id="fs_pos_back_color4" image="image_position_color4_JPG" nbvert="651"/>
+      </Slider>
+      <Slider id="fs_pos_color1_small" y="5" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color1" down="slider_color1_p" over="slider_color1_h" lefttop="leftbottom" rightbottom="rightbottom" visible="posbar_small.isActive">
+        <SliderBackground id="fs_pos_back_small" image="image_position_color1" nbvert="651"/>
+      </Slider>
+      <Slider id="fs_pos_color2_small" y="5" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color2" down="slider_color2_p" over="slider_color2_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color2.isActive and posbar_small.isActive">
+        <SliderBackground id="fs_pos_back_color2_small" image="image_position_color2" nbvert="651"/>
+      </Slider>
+      <Slider id="fs_pos_color3_small" y="5" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color3" down="slider_color3_p" over="slider_color3_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color3.isActive and posbar_small.isActive">
+        <SliderBackground id="fs_pos_back_color3_small" image="image_position_color3_JPG" nbvert="651"/>
+      </Slider>
+      <Slider id="fs_pos_color4_small" y="5" points="(0,5),(650,5)" value="time" tooltiptext="" up="slider_color4" down="slider_color1_p" over="slider_color4_h" lefttop="leftbottom" rightbottom="rightbottom" visible="color4.isActive and posbar_small.isActive">
+        <SliderBackground id="fs_pos_back_color4_small" image="image_position_color4_JPG" nbvert="651"/>
+      </Slider>
+      <Image id="fs_bottom" y="10" image="image_bottombar_650x50" action="move" action2="MainWindow.maximize()" resize="scale" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Text text="$T / $D" font="zegoeuil" color="#ffffff" id="fs_time" x="20" y="25" width="110" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Panel id="fs_volume_panel" x="475" y="10" width="175" height="50" lefttop="rightbottom" rightbottom="rightbottom">
+        <Image id="fs_resize_E" x="170" image="image_bottombar_5x50" action="resizeE" lefttop="rightbottom" rightbottom="rightbottom"/>
+        <Image id="fs_volume_icon" x="5" image="mainframe_image_volume" lefttop="rightbottom" rightbottom="rightbottom"/>
+        <Image id="fs_volume_back" x="52" y="20" image="image_volume_horizont_back" lefttop="rightbottom" rightbottom="rightbottom"/>
+        <Slider id="fs_vol_color1" x="52" y="20" points="(0,5),(100,5)" value="volume" tooltiptext="" up="slider_color1" down="slider_color1_p" over="slider_color1_h" lefttop="rightbottom" rightbottom="rightbottom">
+          <SliderBackground id="volume_horizont_front" image="image_volume_horizont_front" nbvert="101"/>
+        </Slider>
+        <Slider id="fs_vol_color2" x="52" y="20" points="(0,5),(100,5)" value="volume" tooltiptext="" up="slider_color2" down="slider_color2_p" over="slider_color2_h" lefttop="rightbottom" rightbottom="rightbottom" visible="color2.isActive">
+          <SliderBackground id="volume_horizont_front_color2" image="image_volume_horizont_color2" nbvert="101"/>
+        </Slider>
+        <Slider id="fs_vol_color3" x="52" y="20" points="(0,5),(100,5)" value="volume" tooltiptext="" up="slider_color3" down="slider_color3_p" over="slider_color3_h" lefttop="rightbottom" rightbottom="rightbottom" visible="color3.isActive">
+          <SliderBackground id="volume_horizont_front_color3" image="image_volume_horizont_color3" nbvert="101"/>
+        </Slider>
+        <Slider id="fs_vol_color4" x="52" y="20" points="(0,5),(100,5)" value="volume" tooltiptext="" up="slider_color4" down="slider_color1_p" over="slider_color4_h" lefttop="rightbottom" rightbottom="rightbottom" visible="color4.isActive">
+          <SliderBackground id="volume_horizont_front_color4" image="image_volume_horizont_color4" nbvert="101"/>
+        </Slider>
+      </Panel>
+      <Panel id="fs_mainframe_panel_mid" x="190" y="10" width="250" height="50" lefttop="leftbottom" rightbottom="rightbottom" xkeepratio="true">
+        <Button up="mainframe_image_slower" down="mainframe_image_slower_press" over="mainframe_image_slower_hover" action="playlist.previous()" id="fs_slower" x="50" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Checkbox state="vlc.isPlaying" up1="mainframe_image_play" up2="mainframe_image_pause" down1="mainframe_image_play_press" down2="mainframe_image_pause_press" over1="mainframe_image_play_hover" over2="mainframe_image_pause_hover" action1="vlc.play()" action2="vlc.pause()" id="fs_play_pause" x="100" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="mainframe_image_faster" down="mainframe_image_faster_press" over="mainframe_image_faster_hover" action="playlist.next()" id="fs_faster" x="150" lefttop="leftbottom" rightbottom="leftbottom"/>
+      </Panel>
+    </Layout>
+  </Window>
+  <Window id="fileinfo" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="fileinfo_on" width="650" height="360">
+    </Layout>
+    <Layout id="fileinfo_off" width="650" height="360">
+    </Layout>
+  </Window>
+  <Window id="PlaylistIcon" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="playlisticon_off" width="650" height="360">
+    </Layout>
+    <Layout id="playlisticon_on" width="650" height="360">
+    </Layout>
+  </Window>
+  <Window id="customplaylist" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="customplaylist_on" width="650" height="360">
+    </Layout>
+    <Layout id="customplaylist_off" width="650" height="360">
+    </Layout>
+  </Window>
+  <Window id="posbar" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="posbar_small" width="1" height="1">
+    </Layout>
+    <Layout id="posbar_big" width="1" height="1">
+    </Layout>
+  </Window>
+  <Window id="popup1" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="popup1_on" width="1" height="1">
+    </Layout>
+    <Layout id="popup1_off" width="1" height="1">
+    </Layout>
+  </Window>
+  <Window id="menu" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="menu_main" width="1" height="1">
+    </Layout>
+    <Layout id="menu_hotkeys" width="1" height="1">
+    </Layout>
+    <Layout id="menu_on" width="1" height="1">
+    </Layout>
+    <Layout id="menu_off" width="1" height="1">
+    </Layout>
+  </Window>
+  <Window id="playlisticons" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="playlisticons_2" width="1" height="1">
+    </Layout>
+    <Layout id="playlisticons_1" width="1" height="1">
+    </Layout>
+  </Window>
+  <Window id="start" visible="false" dragdrop="false" playondrop="false">
+    <Layout id="firststart_no" width="1" height="1">
+    </Layout>
+    <Layout id="firststart_yes" width="1" height="1">
+    </Layout>
+  </Window>
+
+</Theme>

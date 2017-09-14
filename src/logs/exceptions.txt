@@ -1,0 +1,107 @@
+Uncaught exception
+Traceback (most recent call last):
+  File "smgui.py", line 7, in <module>
+    from uicomponents.uiMain import UiMain
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\uiMain.py", line 15, in <module>
+    from uicomponents.musicPlayers    import UiMusicPlayersFrame
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\musicPlayers.py", line 4, in <module>
+    import SMG
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\SMG.py", line 9, in <module>
+    programSkeleton = ProgramSkeleton.ProgramSkeleton()
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\ProgramSkeleton.py", line 21, in __init__
+    configuration = get_config("config/config.json")
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\Configuration.py", line 65, in get_config
+    conf = Configuration(filename)
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\Configuration.py", line 10, in __init__
+    super().__init__(filename)
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\confy.py", line 35, in __init__
+    with open(self.filename, 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'config/config.json'
+Uncaught exception
+Traceback (most recent call last):
+  File "smgui.py", line 7, in <module>
+    from uicomponents.uiMain import UiMain
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\uiMain.py", line 15, in <module>
+    from uicomponents.musicPlayers    import UiMusicPlayersFrame
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\musicPlayers.py", line 4, in <module>
+    import SMG
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\SMG.py", line 9, in <module>
+    programSkeleton = ProgramSkeleton.ProgramSkeleton()
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\ProgramSkeleton.py", line 41, in __init__
+    self.verify_structure()
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\ProgramSkeleton.py", line 65, in verify_structure
+    error(aFile)
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\ProgramSkeleton.py", line 78, in error_config
+    configuration.create_configuration_file()
+AttributeError: 'NoneType' object has no attribute 'create_configuration_file'
+Uncaught exception
+Traceback (most recent call last):
+  File "smgui.py", line 7, in <module>
+    from uicomponents.uiMain import UiMain
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\uiMain.py", line 15, in <module>
+    from uicomponents.musicPlayers    import UiMusicPlayersFrame
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\musicPlayers.py", line 4, in <module>
+    import SMG
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\SMG.py", line 9, in <module>
+    programSkeleton = ProgramSkeleton.ProgramSkeleton()
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\ProgramSkeleton.py", line 41, in __init__
+    self.verify_structure()
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\ProgramSkeleton.py", line 65, in verify_structure
+    error(aFile)
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\ProgramSkeleton.py", line 80, in error_config
+    configuration.create_configuration_file()
+AttributeError: 'Configuration' object has no attribute 'create_configuration_file'
+Uncaught exception
+Traceback (most recent call last):
+  File "smgui.py", line 7, in <module>
+    from uicomponents.uiMain import UiMain
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\uiMain.py", line 15, in <module>
+    from uicomponents.musicPlayers    import UiMusicPlayersFrame
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\musicPlayers.py", line 4, in <module>
+    import SMG
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\SMG.py", line 9, in <module>
+    programSkeleton = ProgramSkeleton.ProgramSkeleton()
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\ProgramSkeleton.py", line 42, in __init__
+    configuration = get_config("config/config.json")
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\Configuration.py", line 65, in get_config
+    conf = Configuration(filename)
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\Configuration.py", line 10, in __init__
+    super().__init__(filename)
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\confy.py", line 32, in __init__
+    self.store = json.load(f)
+  File "C:\Python34\lib\json\__init__.py", line 268, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Python34\lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python34\lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python34\lib\json\decoder.py", line 359, in raw_decode
+    obj, end = self.scan_once(s, idx)
+ValueError: Expecting property name enclosed in double quotes: line 9 column 7 (char 188)
+Uncaught exception
+Traceback (most recent call last):
+  File "smgui.py", line 7, in <module>
+    from uicomponents.uiMain import UiMain
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\uiMain.py", line 11, in <module>
+    from verifyLicense import verifyLicense
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\verifyLicense.py", line 3, in <module>
+    from resourceDownloader import fetchLicenseValidation
+ImportError: cannot import name 'fetchLicenseValidation'
+Uncaught exception
+Traceback (most recent call last):
+  File "smgui.py", line 7, in <module>
+    from uicomponents.uiMain import UiMain
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\uiMain.py", line 11, in <module>
+    from verifyLicense import verifyLicense
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\verifyLicense.py", line 3, in <module>
+    from resourceDownloader import fetchLicenseValidation
+ImportError: cannot import name 'fetchLicenseValidation'
+Uncaught exception
+Traceback (most recent call last):
+  File "SMGui.py", line 7, in <module>
+    from uicomponents.uiMain import UiMain
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\uicomponents\uiMain.py", line 11, in <module>
+    from verifyLicense import verifyLicense
+  File "C:\Users\az\Documents\SMG_Development\SMG\src\verifyLicense.py", line 3, in <module>
+    from resourceDownloader import fetchLicenseValidation
+ImportError: cannot import name 'fetchLicenseValidation'

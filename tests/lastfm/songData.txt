@@ -1,0 +1,40 @@
+[{
+	"out": {
+		"artist": "Track was not found",
+		"name": "Track was not found"
+	},
+	"in": {
+		"expected": {
+			"artist": "",
+			"name": "Zyprus & Zoda - Fake (HQ Preview) [HD]",
+			"album": ""
+		},
+		"input": "Zyprus & Zoda - Fake (HQ Preview) [HD] "
+	}
+}, {
+	"out": {
+		"artist": "Track was not found",
+		"name": "Track was not found"
+	},
+	"in": {
+		"expected": {
+			"artist": "Christopher Lee",
+			"name": "Autumn Twilight",
+			"album": "The Magic Of The Wizard's Dream"
+		},
+		"input": "Autumn Twilight Christopher Lee"
+	}
+}, {
+	"out": {
+		"artist": "Track was not found",
+		"name": "Track was not found"
+	},
+	"in": {
+		"expected": {
+			"artist": "Sergei Prokofiev",
+			"name": "Prokofiev : Alexander Nevsky Op.78 : V The Battle on the Ice",
+			"album": "40 Most Beautiful Winter Classics"
+		},
+		"input": "Prokofiev : Alexander Nevsky Op.78 : V The Battle on the Ice Sergei Prokofiev"
+	}
+}]
